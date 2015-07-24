@@ -377,8 +377,7 @@ var Search=React.createClass({displayName: "Search",
 	render:function(){
 		var selectStyle={  'border-radius': '3px'}
 		return (
-				React.createElement("div", {className: "form-horizontal map-search-form alert"}, 
-					React.createElement("div", {className: "form-group"}, 
+				React.createElement("div", {className: "form-horizontal map-search-form"}, 
 						React.createElement("div", {className: "input-group"}, 
 							React.createElement("div", {className: "input-group-addon"}, 
 							React.createElement("select", {ref: "areaRange", style: selectStyle, onChange: this.handleSubmit}, 
@@ -392,7 +391,6 @@ var Search=React.createClass({displayName: "Search",
 							React.createElement("div", {className: "input-group-addon", onClick: this.handleSubmit}, " ", React.createElement("i", {className: "glyphicon glyphicon-search"})
 							)
 						)
-					)
 				)
 			)
 	}
