@@ -30,8 +30,7 @@ var Search=React.createClass({
 	render:function(){
 		var selectStyle={  'border-radius': '3px'}
 		return (
-				<div className="form-horizontal map-search-form alert">
-					<div className="form-group">
+				<div className="form-horizontal map-search-form">
 						<div className="input-group">
 							<div className="input-group-addon">
 							<select ref="areaRange" style={selectStyle} onChange={this.handleSubmit}>
@@ -45,7 +44,6 @@ var Search=React.createClass({
 							<div className="input-group-addon" onClick={this.handleSubmit}> <i className="glyphicon glyphicon-search"></i>
 							</div>
 						</div>
-					</div>
 				</div>
 			)
 	}

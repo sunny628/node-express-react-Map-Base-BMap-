@@ -45,4 +45,5 @@ gulp.task('watch',function(){
 gulp.task('default',['browserify']);
 
 //gulp init
-gulp.task('start',['browserify','connect','watch']);
+// gulp.task('start',['browserify','connect','watch']);
+gulp.task('start',['browserify','watch']);
