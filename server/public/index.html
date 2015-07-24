@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name ="viewport" content ="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+	<meta name="robots" content="index,follow">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title></title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+	<style>
+		#maps{
+			width:100%;
+			height:400px; 
+		}
+	</style>
+	<script type="text/javascript">
+	(function (url, title) {
+	        var link = document.createElement('link');
+	        link.setAttribute('rel', 'shortcut icon');
+	        link.setAttribute('href', url);
+	        document.head.appendChild(link);
+	        if (!document.title) {
+	            document.title = title;
+	        }
+	    })('logoDefault.png','React_GoogleMap_Search');
+	</script>
+</head>
+<body>
+	<div id="app">
+		
+	</div>
+	<!--
+	<script type="text/javascript"  
+	 src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	 -->
+	 <script type="text/javascript" src="http://api.map.baidu.com/api?ak=PBB8GYjfpSyyo2v4SPf1XSPF&v=1.5"></script>
+	<script src="dist/js/main.js"></script>
+</body>
+</html>
